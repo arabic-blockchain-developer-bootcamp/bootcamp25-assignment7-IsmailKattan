@@ -9,7 +9,7 @@ contract Assignment7Test is Test {
 
     function setUp() public {
         // pass your token name and symbol here
-        assignment = new Assignment7();
+        assignment = new Assignment7("KATTAN","ktn");
     }
 
     function testMintAndTransfer() public {
